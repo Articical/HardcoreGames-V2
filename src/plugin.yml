@@ -1,0 +1,28 @@
+name: HardcoreGames
+version: 1.0.0
+author: RyTheFirst
+website: rythefirst.uk
+main: uk.rythefirst.hcgames.Main
+api-version: 1.16
+commands:
+ manage:
+  description: GameMaster
+ teams:
+  description: Team
+ tp:
+  description: Teleport
+ setup:
+  description: Setup
+ spawn:
+  description: Spawnpoint setup
+permissions:
+ hc.hidden:
+  description: Hidden
+ hc.addteam:
+  description: AddTeam
+ hc.stream:
+  description: stream
+ hc.break:
+  description: Break blocks when game not playing.
+ hc.spawns:
+  description: Create Spawn Points.
